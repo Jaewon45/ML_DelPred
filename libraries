@@ -1,0 +1,40 @@
+# Python libraries/packages to be installed for running the code
+# depending on the folders
+
+## Dataset
+import numpy as np
+import pandas as pd
+import os
+import time
+import matplotlib.pyplot as plt
+
+## Features
+import numpy as np
+import pandas as pd
+from time import time
+from pathlib import Path
+import os
+import matplotlib.pyplot as plt
+import seaborn as sns
+import glob
+
+
+## Modelling
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn import preprocessing
+from sklearn.impute import SimpleImputer
+import missingno as msno
+
+from sklearn.model_selection import train_test_split, StratifiedKFold
+from sklearn.metrics import precision_recall_curve, roc_auc_score, roc_curve, brier_score_loss, precision_score, recall_score, confusion_matrix
+from scipy.stats import t
+import itertools
+
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model import LogisticRegression
+from catboost import CatBoostClassifier
+from xgboost import XGBClassifier
+from sklearn.model_selection import GridSearchCV
