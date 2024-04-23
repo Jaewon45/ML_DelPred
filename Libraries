@@ -17,6 +17,7 @@ import os
 import matplotlib.pyplot as plt
 import seaborn as sns
 import glob
+# comorbidity features need additional R packages for its R script
 
 
 ## Modelling
