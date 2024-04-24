@@ -28,6 +28,7 @@ import seaborn as sns
 from sklearn import preprocessing
 from sklearn.impute import SimpleImputer
 import missingno as msno
+from imblearn.over_sampling import SMOTE
 
 from sklearn.model_selection import train_test_split, StratifiedKFold
 from sklearn.metrics import precision_recall_curve, roc_auc_score, roc_curve, brier_score_loss, precision_score, recall_score, confusion_matrix
